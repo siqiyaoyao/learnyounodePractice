@@ -140,3 +140,5 @@ mymodule(callback,fileName,target);
 ==， 两边值类型不同的时候，要先进行类型转换，再比较。
 ===，不做类型转换，类型不同的一定不等。
 === 更为严格
+###最终版本
+exercise6.js & module.js
