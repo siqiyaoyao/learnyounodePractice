@@ -141,4 +141,5 @@ mymodule(callback,fileName,target);
 ===，不做类型转换，类型不同的一定不等。
 === 更为严格
 ### 最终版本
-exercise6.js & module.js
+[exercise6.js](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise6/exercise6.js)
+[module.js](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise6/module.js)
