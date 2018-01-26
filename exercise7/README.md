@@ -1,6 +1,6 @@
 ## 概念 
 ### 流（stream）
-strean 是一个抽象接口,node中有很多对象实现了该接口，例如，对http服务器发起请求的request对象就是一个stream，还有标准输出（stdout）.
+stream 是一个抽象接口,node中有很多对象实现了该接口，例如，对http服务器发起请求的request对象就是一个stream，还有标准输出（stdout）.
 stream是**EventEmitter**的实例，有4种常用事件：
 - data:当有数据可读时触发；
 - end:没有更多的数据可读时触发；
