@@ -59,3 +59,8 @@ var count = 0；
 ```
 
 - 功能相同，仅参数不同的函数，要写成通用函数，然后用循环将不同的参数传递进去。
+
+### 作业答案
+[homework7](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise7/http.js)
+[homework8](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise7/exercise8.js)
+[homework9](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise7/e9re.js)
