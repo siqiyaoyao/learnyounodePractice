@@ -104,8 +104,6 @@ mymodule(callback,fileName,target);
 - 回调函数的参数位置
 应该放在其他参数的后面
 ### 优化：
-
-## Delete a file
 -当对象是数组的时候，可以用**arr.forEach** 替代**for** 循环
 ```javascript
  /*
