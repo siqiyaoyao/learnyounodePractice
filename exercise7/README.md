@@ -9,6 +9,7 @@ stream是**EventEmitter**的实例，有4种常用事件：
 
 ### 管道(pipe)
 可以通过pipe将输入定位到输出，输入输出可以是控制台或者文件流或者http请求。
+一个readable的流才会有pipe方法可以调用，pipe方法接收一个可写入的流对象作为pipe的目标,就是在一个可读的流和可写的流之间建立一个通道，把readable中的数据写入destination中,pipe执行完后返回destination指定的流对象
 pipe不仅可以将导向不同的位置，也可以在导流的过程中进行处理：链式流；
 - 范例：
 ```javascript
