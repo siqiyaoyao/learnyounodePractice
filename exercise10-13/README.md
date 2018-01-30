@@ -18,6 +18,9 @@ console.log(typeof(dateNoNew)); // string
 console.log(dateNoNew); // on Jan 29 2018 09:29:24 GMT+0800 (中国标准时间)
 ```
 string 转 data
+```javascript
+ var time = new Date(path.query.iso);
+```
 
 格式化
 ```javascript
@@ -46,7 +49,7 @@ console.log(time1); // 2018-01-29 09:51
 
 ### url 模块
 url.parse(urlString,boolean,boolean)
-将一个url的字符串解析并返回一个url的对象
+将一个url的字符串解析并返回一个url的对象，如果第二个参数为true的话，则query属性为一个对象，可以用path.query.iso的方式来取值
 
 url.format(urlobj) 将传入的url对象转换为一个url字符串并返回
 
@@ -77,9 +80,19 @@ req.method ==='POST'
 .reverse( ) 反转字符串
 object.toString( ) 将其他类型的物件转换为字符串类型
 
-### jquery 语法
+### JSON语法
+JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串。
+## 优化 
+1 可以写一遍的语句 不要写多变，多做总结
+2 函数里只写需要特殊处理的部分 将预处理好后的参数传入
+3 注意监听错误信息，因此不仅要写正确的返回信息，也要写错误时候的返回信息
 
+### 作业
 
+[exercise10](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/TCP.js)
+[exercise11](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/TCPserver.js)
+[exercise12](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/e12.js)
+[exercise13](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/e13re.js)
 
 
  
