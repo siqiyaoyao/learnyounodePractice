@@ -89,7 +89,10 @@ JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串。
 
 ### 作业
 
-
+[exercise10](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/TCP.js)
+[exercise11](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/TCPserver.js)
+[exercise12](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/e12.js)
+[exercise13](https://github.com/siqiyaoyao/learnyounodePractice/blob/master/exercise10/e13re.js)
 
 
  
