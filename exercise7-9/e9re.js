@@ -1,6 +1,6 @@
 
 var http = require("http");
-var bl = require("bl");
+var bl = require("bl");// 确保完整的读取数据流
 
 var resultArr = [];
 var count = 0;
